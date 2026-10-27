@@ -14,7 +14,7 @@ npx skills add yechengyu/tadashi-yanai-perspective
 ```
 该命令依赖目标环境有Node/npm，并由skills安装器选择兼容的AI工具；并非所有聊天工具都支持。安装器可能提示确认下载，请本人核对来源并操作。
 
-手动方式：在GitHub的 Code → Download ZIP 下载，解压后将整个 `tadashi-yanai-perspective` 文件夹放进所用AI工具支持的skills目录。Codex可用 `~/.codex/skills/tadashi-yanai-perspective/`，Claude Code可用 `~/.claude/skills/tadashi-yanai-perspective/`；其他工具按其正式说明，不把“上传一个文件”当成已安装技能。
+手动方式：在GitHub的 Code → Download ZIP 下载，解压后若目录带 `-main` 后缀，先改名为 `tadashi-yanai-perspective`，再将整个文件夹放进所用AI工具支持的skills目录。Codex可用 `~/.codex/skills/tadashi-yanai-perspective/`，Claude Code可用 `~/.claude/skills/tadashi-yanai-perspective/`；其他工具按其正式说明，不把“上传一个文件”当成已安装技能。
 
 安装后开启或刷新工具会话，调用 `$tadashi-yanai-perspective`，或者说“请用柳井正的经营视角分析这个问题”。若工具无法发现技能，仍可让AI读取 `SKILL.md` 体验方法，但须区分读取体验与技能安装。
 
